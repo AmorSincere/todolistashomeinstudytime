@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3 mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="enter-area">
+                        <button type="button" class="input-group-append btn btn-success" onclick="addTask()">Add</button>
+                    </div>
+                </div>
+                <div class="card-footer border-0">
+                    <div class="progress">
+                        <div class="progress-bar" id="progress" style="width: 0% ">
+                            <p id="foiz" class="m-0 font-weight-bolder text-center" ></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body" id="content">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
